@@ -15,28 +15,28 @@
     <div th:fragment="displayJobTable">
     <table th:each=" job : ${jobs}" class="job-listing">
         <tr>
-            <th>ID</th>
-            <th th:text="${job.getId}"></th>
+            <td>ID</td>
+            <td th:text="${job.getId}"></td>
         </tr>
         <tr>
-            <th>Name</th>
-            <th th:text="${job.getName}"></th>
+            <td>Name</td>
+            <td th:text="${job.getName}"></td>
         </tr>
         <tr>
-            <th>Employer</th>
-            <th th:text="${job.getEmployer}"></th>
+            <td>Employer</td>
+            <td th:text="${job.getEmployer}"></td>
         </tr>
         <tr>
-            <th>Location</th>
-            <th th:text="${job.getLocation}"></th>
+            <td>Location</td>
+            <td th:text="${job.getLocation}"></td>
         </tr>
         <tr>
-            <th>Position Type</th>
-            <th th:text="${job.getPositionType}"></th>
+            <td>Position Type</td>
+            <td th:text="${job.getPositionType}"></td>
         </tr>
         <tr>
-            <th>Core Competency</th>
-            <th th:text="${job.getCoreCompetency}"></th>
+            <td>Core Competency</td>
+            <td th:text="${job.getCoreCompetency}"></td>
         </tr>
 
     </table>
